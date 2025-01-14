@@ -1,0 +1,31 @@
+name: Echo
+author: White
+category: Pwn
+description: |-
+  Yet another echo service. However, the service keeps printing stack smashing detected for some reason, can you help me figure it out?
+
+  `nc {{ IP }} 5000`
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{c4n4ry_15_u53l355_1f_607_15_wr174bl3}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/echo.zip
+
+topics:
+- binary exploitation
+
+version: '0.1'

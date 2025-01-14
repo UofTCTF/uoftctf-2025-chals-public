@@ -1,0 +1,31 @@
+name: Prismatic Blogs
+author: White
+category: Web
+description: |-
+  Here are API endpoints for a blog website.
+
+  Here is the API [here](http://{{ IP }}:3000)
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: http
+host: null
+
+flags:
+- content: uoftctf{u51n6_0rm5_d035_n07_m34n_1nj3c710n5_c4n7_h4pp3n}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/blogs.zip
+
+topics:
+- Scavenger Hunt
+
+version: '0.1'

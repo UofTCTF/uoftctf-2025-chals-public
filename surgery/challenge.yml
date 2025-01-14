@@ -1,0 +1,32 @@
+name: Surgery
+author: windex
+category: Misc
+description: |-
+  I was thinking of getting some facial contouring plastic surgery done, but didn't know who to go to. My friend said they had a recommendation for a doctor specializing in that, but only sent me this photo of some building. Who's the doctor?
+  Before submitting, wrap the doctor's name in `uoftctf{}`. Special characters allowed, [First] [Last] format.
+
+  For example, if the name was Jean-Pierre Brehier, the flag would be uoftctf{Jean-Pierre Brehier}
+
+  Author: windex
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+flags:
+- content: uoftctf{Sung-Sik Kim}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/image.png
+
+version: '0.1'

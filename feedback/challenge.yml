@@ -1,0 +1,19 @@
+name: Feedback
+author: windex
+category: Misc
+description: |-
+  Welcome to UofTCTF 2025!
+
+  We’d love to hear your thoughts and suggestions so we can make future CTFs even better! Please take a moment to fill out our CTF Feedback Form:
+
+  https://forms.gle/CLmsEbGbwHFwzq5n9
+value: 0
+type: standard
+
+flags:
+- content: >-
+    uoftctf{533_y0u_4641n_1n_2026!}
+  type: static
+  data: case_insensitive
+
+version: '0.1'

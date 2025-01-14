@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS ${MYSQL_DB};
+USE ${MYSQL_DB};
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS flags (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    flag VARCHAR(255) NOT NULL
+);
+
+INSERT INTO users (username, password) VALUES ('admin', 'password123');
+
+INSERT INTO flags (flag) VALUES ("uoftctf{r3m3mb3r_70_c173_y0ur_50urc35_1n_5ql_f0rm47}");

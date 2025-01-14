@@ -1,0 +1,25 @@
+name: Out of the Container
+author: windex
+category: Misc
+description: |-
+  Testing out a new program I wrote on the cloud!
+  `docker pull windex123/config-tester`
+
+  Author: windex
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+flags:
+- uoftctf{out-of-the-bucket3}
+
+version: '0.1'

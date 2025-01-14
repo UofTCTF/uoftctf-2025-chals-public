@@ -1,0 +1,42 @@
+name: 'Don''t Sandbox Python 3: barebones'
+author: SteakEnthusiast
+category: Jail
+description: |-
+  **Welcome to the "Don't Sandbox Python" series!**
+
+  In this series, you'll hone your vulnerability research skills by auditing [asteval](https://github.com/lmfit/asteval), a library which strives to safely evaluate user-inputted expressions. There are three parts of this series. The series is divided into three parts, each introducing additional custom security fortifications to the library. Successfully solving each level will unlock the next one.
+
+  Level 3: I HAVE NOTHING!
+
+  Note: Challenges in this series may require you to discover and exploit vulnerabilities that are not yet publicly known (i.e., a 0-day). **Please refrain from publicly sharing write-ups or solutions for these challenges until the vulnerabilities have been officially patched by the library maintainers**.
+
+  `nc {{ IP }} 5000`
+
+  Author: SteakEnthusiast
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{aebef9d5aaf2734d61b15a3771bcd644a1c3858e}
+  type: static
+  data: case_insensitive
+
+requirements:
+    - 'Don''t Sandbox Python 1: n-day?'
+    - 'Don''t Sandbox Python 2: simple'
+
+
+files:
+- dist/dont-sandbox-python-3.zip
+
+topics:
+- asteval
+
+version: '0.1'

@@ -1,0 +1,39 @@
+name: "Baby Pwn 2"
+author: "atom"
+category: Pwn
+description: |
+  Hehe, now there's no secret function to call. Can you still get the flag?
+
+  `nc {{ IP }} 5000`
+
+  Author: atom
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+protocol: tcp
+
+host: null
+
+flags:
+  - {
+      type: "static",
+      content: "uoftctf{sh3llc0d3_1s_pr3tty_c00l}",
+      data: "case_insensitive",
+    }
+
+topics:
+  - pwn
+  - shellcode
+
+files:
+  - dist/baby-pwn-2.zip
+
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,31 @@
+name: JS Blacklist V2
+author: SteakEnthusiast
+category: Jail
+description: |-
+  How deep is your love for JavaScript? Welcome to the sequel to [JS Blacklist](https://github.com/UofTCTF/uoftctf-2024-chals-public/tree/master/Jail/js_blacklist)!
+
+  `nc {{ IP }} 5000`
+
+  Author: SteakEnthusiast
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{5h0u70u7_70_j4k0xb_f0r_734ch1n6_m3_4b0u7_7h3_1mp0r7_7r1ck}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/js-blacklist-v2.zip
+
+topics:
+- javascript jail
+
+version: '0.1'

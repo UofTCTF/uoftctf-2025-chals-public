@@ -1,0 +1,28 @@
+name: 'Causation'
+author: Toadytop
+category: Crypto
+description: |-
+  It's the first RNGs fault!!!
+
+  `nc {{ IP }} 5000`
+
+  Author: Toadytop
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{they're_c0rrelated_..._Rng1_D0esnt_4ffect_rng2}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/causation.py
+
+version: '0.1'

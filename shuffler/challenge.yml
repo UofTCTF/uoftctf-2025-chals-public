@@ -1,0 +1,31 @@
+name: Shuffler
+author: rethinkrubiks
+category: Crypto
+description: |-
+  Have you heard of a Baker that can shuffle numbers?
+
+  `nc {{ IP }} 5000`
+
+  Author: rethinkrubiks
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{Intr0ductioN_2_dyNam1cal_sYst3m_&_cha05}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/shuffler.py
+
+topics:
+- crypto
+
+version: '0.1'

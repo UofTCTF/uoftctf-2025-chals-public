@@ -1,0 +1,30 @@
+name: My Second App
+author: SteakEnthusiast
+category: Web
+description: |-
+  After the failure of [My First App](https://github.com/UofTCTF/uoftctf-2024-chals-public/tree/master/Web/My%20First%20App), I decided that I just can't trust user input anymore. So for my second app, I made a website that only allows pre-approved guests to access it. Oh, and I fired the old firewall guy in favor of a new one. The new one is wayyyyy better. Now I'm sure now that it's unhackable!
+
+  Author: SteakEnthusiast
+value: 500
+type: kubectf
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+  template_name: my-second-app
+host: null
+
+flags:
+- content: uoftctf{6u355_1_4m_n07_3X73ND1N6_7h3_n3w_f1r3w4ll_6uy'5_c0n7r4c7_317h3r_:(}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/my-second-app.zip
+
+topics:
+- SSTI filter bypass
+- Hash Length Extension
+
+version: '0.1'

@@ -1,0 +1,14 @@
+Intended solution is to patch the python binary with an added code that dumps the marshalled bytecode when calling the marshal.loads function
+
+This allows for easy dumping of the marshalled code
+
+This only involves adding something like
+
+write(5, "\n\n\n\n\n", 5);
+write(5, s, n);
+
+to the file Python/marshal.c in the function marshal_loads_impl
+
+Note:
+It is doable to manually reverse and get the keys on each layer manually and decode the bytecodes manually
+But the amount of anti tampering added should make this more annoing than just adding 2 lines of code to python source code and compiling it

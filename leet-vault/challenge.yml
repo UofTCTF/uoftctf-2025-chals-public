@@ -1,0 +1,29 @@
+name: 1337 v4ul7
+author: SteakEnthusiast
+category: Web
+description: |-
+  I've started learning the fascinating language of LeetSpeak, and recording some of my notes in my diary. Good thing I built this vault to keep it away from prying eyes!
+
+  Visit the website [here](http://{{ IP }}:1337)
+
+  Author: SteakEnthusiast
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: http
+host: null
+
+flags:
+- content: uoftctf{l337_15_p3rf3c7_f0r_fl465_4nd_3xp0n3n75}
+  type: static
+  data: case_insensitive
+
+topics:
+- JWT Public Key Derivation
+- RSA
+
+version: '0.1'

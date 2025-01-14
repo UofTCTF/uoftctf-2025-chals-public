@@ -1,0 +1,31 @@
+name: Book Editor
+author: White
+category: Pwn
+description: |-
+  Easily write and edit your book with this new service.
+
+  `nc {{ IP }} 5000`
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{4lw4y5_ch3ck_f0r_3rr0r5_4f73r_m4ll0c}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/book.zip
+
+topics:
+- binary exploitation
+
+version: '0.1'

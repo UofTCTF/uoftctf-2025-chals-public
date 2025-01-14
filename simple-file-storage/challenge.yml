@@ -1,0 +1,30 @@
+name: Simple File Storage
+author: SteakEnthusiast
+category: Misc
+description: |-
+  There's beauty in simplicity. With our Simple File Storage service, you can upload, download, and view files to your heart's content!
+
+  Author: SteakEnthusiast
+value: 500
+type: kubectf
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+  template_name: simple-file-storage
+host: null
+
+flags:
+- content: uoftctf{4_p0ly6l07_15_4_p3r50n_wh0_kn0w5_4nd_15_4bl3_70_u53_53v3r4l_l4n6u4635}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/simple-file-storage.zip
+
+topics:
+- PHP Webshell
+- ZipTar Polyglot
+
+version: '0.1'

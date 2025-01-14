@@ -1,0 +1,31 @@
+name: Py_FlagChecker
+author: White
+category: Rev
+description: |-
+  Here is a flag checker, but its in python?
+
+  Note: The python version is 3.10.12
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+flags:
+- content: uoftctf{m0d1fy1n6_7h3_50urc3_0f_py7h0n_15_fun}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/pyflagchecker.zip
+
+version: '0.1'

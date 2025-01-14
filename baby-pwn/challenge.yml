@@ -1,0 +1,37 @@
+name: "Baby Pwn"
+author: "atom"
+category: Pwn
+description: |
+  Here's a baby pwn challenge for you to try out. Can you get the flag?
+
+  `nc {{ IP }} 5000`
+
+  Author: atom
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+protocol: tcp
+
+host: null
+
+flags:
+  - {
+      type: "static",
+      content: "uoftctf{buff3r_0v3rfl0w5_4r3_51mp13_1f_y0u_kn0w_h0w_t0_d0_1t}",
+      data: "case_insensitive",
+    }
+
+topics:
+  - pwn
+
+files:
+  - dist/baby-pwn.zip
+
+state: visible
+
+version: "0.1"

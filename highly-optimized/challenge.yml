@@ -1,0 +1,30 @@
+name: Highly Optimized
+author: 5UXFpebqXx4stj3
+category: Rev
+description: |-
+  I set my compiler optimizations to the max, but my program still won't complete. Maybe I just need to wait a few more minutes.
+
+  Author: 5UXFpebqXx4stj3
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+flags:
+- content: >-
+    uoftctf{vmr00m_vmr00m}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/highly-optimized
+
+version: '0.1'

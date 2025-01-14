@@ -1,0 +1,31 @@
+name: Timed AES
+author: White
+category: Crypto
+description: |-
+  I made my own AES implementation. To test its performance, I timed the encrypting and decryption operations. However, I noticed that the decryption is a lot slower than the encryption. Help me find out what is wrong.
+
+  Wrap the flag in the uoftctf{} format.
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+flags:
+- content: uoftctf{t1m1ng_l34ks_a3s}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/aes.zip
+
+version: '0.1'

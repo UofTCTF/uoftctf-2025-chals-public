@@ -1,0 +1,39 @@
+name: "Enchanted Oracle"
+author: "atom"
+category: Crypto
+description: |
+  Only the most worthy can decrypt the enchanted oracle. Can you?
+
+  `nc {{ IP }} 5000`
+
+  Author: atom
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+protocol: tcp
+
+host: null
+
+flags:
+  - {
+      type: "static",
+      content: "uoftctf{y3s_1_kn3w_y0u_w3r3_w0r7hy!!!}",
+      data: "case_insensitive",
+    }
+
+topics:
+  - crypto
+  - aes
+  - padding oracle
+
+files:
+  - src/aes-cbc.py
+
+state: visible
+
+version: "0.1"

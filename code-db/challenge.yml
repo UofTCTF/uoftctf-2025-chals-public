@@ -1,0 +1,31 @@
+name: CodeDB
+author: SteakEnthusiast
+category: Web
+description: |-
+  Welcome to CTRL+F the website! It's pretty much just GitHub code search.
+
+  Visit the website [here](http://{{ IP }}:3000)
+
+  Author: SteakEnthusiast
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: http
+host: null
+
+flags:
+- content: uoftctf{why_15_my_4pp_l4661n6_50_b4dly??}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/code-db.zip
+
+topics:
+- ReDoS
+
+version: '0.1'

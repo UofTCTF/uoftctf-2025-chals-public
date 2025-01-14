@@ -1,0 +1,31 @@
+name: Math Test
+author: White
+category: Misc
+description: |-
+  Complete this simple math test to get the flag.
+
+  `nc {{ IP }} 5000`
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{7h15_15_b451c_10_7357_d16u153d_45_4_m47h_7357}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/math.zip
+
+topics:
+- binary exploitation
+
+version: '0.1'

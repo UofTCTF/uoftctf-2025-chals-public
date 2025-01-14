@@ -1,0 +1,38 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "POOF"
+author: "0x157"
+category: Forensics
+description: |
+  Yet another pcap, no usb traffic in this one so I'm lost. Can you help me out? :)
+
+  Author: 0x157
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+
+host: null
+
+flags:
+  - {
+      type: "static",
+      content: "uoftctf{W4s_1T_R3ally_aN_Impl4nt??}",
+      data: "case_insensitive",
+    }
+
+topics:
+  - forensics
+
+files:
+  - dist/poof.pcapng
+
+state: visible
+
+version: "0.1"

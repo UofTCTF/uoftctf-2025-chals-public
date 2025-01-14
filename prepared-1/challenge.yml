@@ -1,0 +1,31 @@
+name: 'Prepared: Flag 1'
+author: SteakEnthusiast
+category: Web
+description: |-
+  Who needs prepared statements and parameterized queries when you can use the amazing new QueryBuilder™ and its built-in DirtyString™ sanitizer?
+
+  Author: SteakEnthusiast
+value: 500
+type: kubectf
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+  template_name: prepared-1
+host: null
+
+flags:
+- content: uoftctf{r3m3mb3r_70_c173_y0ur_50urc35_1n_5ql_f0rm47}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/prepared.zip
+
+topics:
+- SQL Injection
+- Python double format
+- Python internals
+
+version: '0.1'

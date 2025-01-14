@@ -1,0 +1,31 @@
+name: Smol JS
+author: SteakEnthusiast
+category: Jail
+description: |-
+  Reading long lines of code is overrated. At SmolCorp™ we believe in the power of simplicity. Not everyone is great at writing smol code though, so I made a tool to help you out.
+
+  `nc {{ IP }} 5000`
+
+  Author: SteakEnthusiast
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{5m4ll_v4r14bl3_n4m35_4nd_b16_c0mm3n75_f0r_7h3_w1n}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/smol-js.zip
+
+topics:
+- javascript jail
+
+version: '0.1'

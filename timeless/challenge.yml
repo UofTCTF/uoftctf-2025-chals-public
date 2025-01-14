@@ -1,0 +1,26 @@
+name: Timeless
+author: SteakEnthusiast
+category: Web
+description: |-
+  Oh look, a blog! Truly a timeless classic. I wonder what's inside?
+
+  Author: SteakEnthusiast
+value: 500
+type: kubectf
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+  template_name: timeless
+host: null
+
+flags:
+- content: uoftctf{4_c00k13_4_d4y_k33p5_7h3_h4ck3r5_4w4y_0r_50m37h1n6_l1k3_7h47}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/timeless.zip
+
+version: '0.1'

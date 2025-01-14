@@ -1,0 +1,30 @@
+name: Decrypt Me
+author: SteakEnthusiast
+category: Forensics
+description: |-
+  I encrypted my encryption script, but I forgot the password. Can you help me decrypt it?
+
+  Author: SteakEnthusiast
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+flags:
+- content: >-
+    uoftctf{ads_and_aes_are_one_letter_apart}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/flag.rar
+
+version: '0.1'

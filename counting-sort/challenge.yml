@@ -1,0 +1,31 @@
+name: Counting Sort
+author: White
+category: Pwn
+description: |-
+  Did you know that the best time complexity for a sorting algorithm is O(n). This is an example service that demonstrates this by sorting your characters.
+
+  `nc {{ IP }} 5000`
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{r3m3mb3r_7h47_ch4r_15_516n3d_by_d3f4ul7}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/sort.zip
+
+topics:
+- binary exploitation
+
+version: '0.1'

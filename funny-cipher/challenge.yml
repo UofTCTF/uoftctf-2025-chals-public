@@ -1,0 +1,43 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Funny Cipher"
+author: "atom"
+category: Crypto
+description: |
+  A wheelbarrow ran over the flag. Can you fix it?
+
+  `60_ZMZ_GBWKNREM_KRA__LQM}WEPRGQL__Q_{RWW_M_KIAGPMNMRXDLM_FMWLDQ0BOIAMNPG`
+
+  Author: atom
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+
+protocol: tcp
+
+host: null
+
+flags:
+  - {
+      type: "static",
+      content: "uoftctf{did_you_know_the_first_substitution_cipher_dates_back_to_600_bc}",
+      data: "case_insensitive",
+    }
+
+topics:
+  - steg
+  - forensics
+  - ciphers
+
+files:
+  - dist/cipher.txt
+
+state: visible
+
+version: "0.1"

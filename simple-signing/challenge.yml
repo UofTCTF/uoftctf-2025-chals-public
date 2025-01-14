@@ -1,0 +1,31 @@
+name: Simple Signing
+author: White
+category: Misc
+description: |-
+  Look at this signing service I made. I didnt want to implement my own hashing algorithm, so I just used python's. Nothing can go wrong right?
+
+  `nc {{ IP }} 5000`
+
+  Author: White
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: tcp
+host: null
+
+flags:
+- content: uoftctf{py7h0n_h45h_15_n07_cryp706r4ph1c4lly_53cur3}
+  type: static
+  data: case_insensitive
+
+files:
+- dist/sign.zip
+
+topics:
+- binary exploitation
+
+version: '0.1'
